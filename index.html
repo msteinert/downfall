@@ -243,7 +243,7 @@ This depends on whether <em>Gather</em> is in the critical execution path of a p
 <p><strong>[Q] Can I disable the mitigation if my workload does not use Gather?</strong></p>
 <p>[A]
 This is a bad idea. Even if your workload does not use vector instructions, modern CPUs rely on vector registers to optimize common operations, such as copying memory and switching register content, which leaks data to untrusted code exploiting <em>Gather</em>.</p>
-<p><strong>[Q] How long was this vulberability under embargo?</strong></p>
+<p><strong>[Q] How long was this vulnerability under embargo?</strong></p>
 <p>[A]
 Almost one year. I reported this vulnerability to Intel August 24, 2022.</p>
 <p><strong>[Q] Should other processor vendors and designers be concerned?</strong></p>
